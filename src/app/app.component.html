@@ -1,0 +1,43 @@
+<div id="calculadora" class="container">
+    <label id="prev">{{prev}}</label>
+    <input id="input" type="text" value={{input}}>
+    <div class="row">
+        <div class="col-10">
+            <div class="row">
+                <button class="col btn btn-primary" id="7" (click)="num('7')">7</button>
+                <button class="col btn btn-primary" id="8" (click)="num('8')">8</button>
+                <button class="col btn btn-primary" id="9" (click)="num('9')">9</button>
+            </div>
+            <div class="row">
+                <button class="col btn btn-primary" id="4" (click)="num('4')">4</button>
+                <button class="col btn btn-primary" id="5" (click)="num('5')">5</button>
+                <button class="col btn btn-primary" id="6" (click)="num('6')">6</button>
+            </div>
+            <div class="row">
+                <button class="col btn btn-primary" id="1" (click)="num('1')">1</button>
+                <button class="col btn btn-primary" id="2" (click)="num('2')">2</button>
+                <button class="col btn btn-primary" id="3" (click)="num('3')">3</button>
+            </div>
+            <div class="row">
+                <button class="col btn btn-primary" id="0" (click)="num('0')">0</button>
+                <button class="col btn btn-primary" id="+/-" (click)="sign()">+/-</button>
+                <button class="col btn btn-primary" id="." (click)="dot()">.</button>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="row"><button class="btn btn-primary" id="DEL" (click)="c()">DEL</button></div>
+            <div class="row"><button class="btn btn-primary" id="/" (click)="signoOperacion('/')">/</button></div>
+            <div class="row"><button class="btn btn-primary" id="*" (click)="signoOperacion('*')">X</button></div>
+            <div class="row"><button class="btn btn-primary" id="-" (click)="signoOperacion('-')">-</button></div>
+            <div class="row"><button class="btn btn-primary" id="+" (click)="signoOperacion('+')">+</button></div>
+            <div class="row"><button class="btn btn-primary" id="=" (click)="eq()">=</button></div>
+            
+            
+            
+            
+            
+            
+        </div>
+    </div>
+
+</div>

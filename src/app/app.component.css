@@ -1,0 +1,29 @@
+#calculadora {
+    background: rgb(246, 248, 216);
+    border: 2px solid blue;
+}
+
+button {
+    border-style: solid;
+    text-align: center;
+    color: inherit;
+    margin: 5px;
+    border-color: rgb(189, 189, 189);
+}
+
+#prev {
+    text-align: right;
+    color: lightgray;
+    display: block;
+}
+
+#input {
+    width: 100%;
+    text-align: right;
+    border: solid black;
+}
+
+button.btn {
+    width: 10vh;
+    height:10vh;
+}
